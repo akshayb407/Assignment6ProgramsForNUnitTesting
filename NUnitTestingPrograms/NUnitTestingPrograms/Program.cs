@@ -27,9 +27,12 @@ namespace NUnitTestingPrograms
             //Sqrt s = new Sqrt();
             //s.Sqroot('0');
 
-            Console.WriteLine("ToBinary Program");
-            ToBinary toBinary = new ToBinary();
-            toBinary.Binary('n');
+            //Console.WriteLine("ToBinary Program!");
+            //ToBinary toBinary = new ToBinary();
+
+            Console.WriteLine("Binary Program!");
+            Binary binary = new Binary();
+            binary.Driver();
          
             
         }
