@@ -6,7 +6,10 @@ namespace NUnitTestingPrograms
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Welcome To NUnit Testing Programs!");
+            Console.WriteLine("Wending Machine program!");
+            VendingMachine vm = new VendingMachine();
+            vm.GiveChange(0);
         }
     }
 }
