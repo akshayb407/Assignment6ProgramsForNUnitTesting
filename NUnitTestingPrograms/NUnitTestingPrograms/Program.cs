@@ -23,10 +23,13 @@ namespace NUnitTestingPrograms
             //MonthlyPayment mp = new MonthlyPayment();
             //mp.Payment('p','y','r');
 
-            Console.WriteLine("Sqrt Program!");
-            Sqrt s = new Sqrt();
-            s.Sqroot('0');
-            
+            //Console.WriteLine("Sqrt Program!");
+            //Sqrt s = new Sqrt();
+            //s.Sqroot('0');
+
+            Console.WriteLine("ToBinary Program");
+            ToBinary toBinary = new ToBinary();
+            toBinary.Binary('n');
          
             
         }
