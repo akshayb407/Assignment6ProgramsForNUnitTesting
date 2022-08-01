@@ -11,9 +11,13 @@ namespace NUnitTestingPrograms
             //VendingMachine vm = new VendingMachine();
             //vm.GiveChange(0);
 
-            Console.WriteLine("Welcome To Day Of Week Program!");
-            DayOfWeek dayOfWeek = new DayOfWeek();
-           
+            //Console.WriteLine("Welcome To Day Of Week Program!");
+            //DayOfWeek dayOfWeek = new DayOfWeek();
+
+            Console.WriteLine("Temperature Conversion Program");
+            TemperatureConversion tc = new TemperatureConversion();
+            tc.FahrenheitToC(0);
+            tc.CelsiusToF(0);
             
          
             
